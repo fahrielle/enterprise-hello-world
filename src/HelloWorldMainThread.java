@@ -6,7 +6,7 @@ public class HelloWorldMainThread implements Runnable{
 		HelloWorldMain.main(null);
     }
     //Start our main helloWorld's main class's main execution thread
-    public static void main(String args[]) {
-        (new Thread(new HelloWorldMainThread())).start();
+    public static void main( String args[] ) {
+        ( new Thread( new HelloWorldMainThread() ) ).start();
     }
 }
